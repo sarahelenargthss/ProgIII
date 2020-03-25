@@ -1,0 +1,13 @@
+h1 {
+    border-bottom: dotted 3px #a388b7;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.containerPrincipal {
+    background-color: white;
+    width: 400px;
+    margin: auto;
+}
