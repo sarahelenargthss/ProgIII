@@ -1,0 +1,38 @@
+h1 {
+    border-bottom: dotted 3px #a388b7;
+}
+
+body {
+    background-color: #eeeeff;
+    font-family: Cambria, sans-serif;
+}
+
+.container_principal {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.default_table td{
+    text-align: center;
+    padding: 5px 5px;
+    width: 120px;
+}
+
+.default_table .dark_line {
+    background-color: #eeeeee;
+}
+
+.default_table .pais {
+    width: 200px;
+    text-align: left;
+}
+
+.default_table th {
+    font-size: 20px;
+}
