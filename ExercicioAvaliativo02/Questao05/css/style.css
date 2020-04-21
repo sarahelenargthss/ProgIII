@@ -1,0 +1,33 @@
+body {
+    background-image: url('https://img4.goodfon.com/wallpaper/nbig/d/d7/ornament-uzor-tekstura-oboi.jpg');
+    background-size: 100%;
+}
+
+form {
+    color: #ffffff;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: #333333dd;
+    flex-direction: row;
+}
+
+form input {
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #777777;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 900px){
+    form {
+        flex-direction: column;
+        align-items: left;
+        background-color: #158a6cdd;
+        width: 70%;
+    }
+}

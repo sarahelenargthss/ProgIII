@@ -1,0 +1,35 @@
+body{
+    background-color: #ffdf76;
+}
+
+main {
+    width: 830px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff55;
+    padding: 10px 10px;;
+
+}
+
+table img {
+    width: 205px;
+    margin: 30px;
+}
+
+table:hover, td {
+    border: 1px solid #2ab87c;
+    border-collapse: collapse;
+}
+
+table td:hover {
+    background-color: #2ab87c;
+}
+
+h1 {
+    padding-right: 50px;
+    padding-left: 50px;
+    border-bottom: 10px #0b9476 double;
+}

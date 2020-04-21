@@ -1,0 +1,52 @@
+main{
+    color: #ffffff;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-image: url('https://secure.img1-ag.wfcdn.com/im/42185714/compr-r85/5896/58965317/joana-removable-tropical-palm-leaves-792-l-x-150-w-peel-and-stick-wallpaper-roll.jpg');
+    background-size: 100%;
+    min-height: 500px;
+}
+
+form {
+    background-color: #ffffffdd;
+    color: #333333;
+    border-radius: 75%;
+    padding: 75px;
+    display: flex;
+    flex-direction: column;
+    border: 10px #ec8d11 ridge;
+}
+
+form button {
+    background-color: #ec8d11;
+    border-radius: 20px;
+    color: #ffffff;
+}
+
+form:hover button {
+    background-color: #f0701b;
+    transition: all 1s;
+}
+
+form button:hover {
+    background-color: #af5316;
+    transition: all 1s;
+}
+
+main:hover button{
+    transition: all 1s;
+}
+
+p {
+    background-color: #ec8d11dd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,44 @@
+body {
+    background-color: #ffe096;
+}
+
+div{
+    background-image: url('https://www.10wallpaper.com/wallpaper/1366x768/1409/Sunflower_petals-Windows_Theme_Wallpaper_1366x768.jpg');
+    background-size: 100%;
+    width: 75%;
+    margin: auto auto;
+    height: 300px;
+}
+
+nav ul {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #111111;
+}
+
+nav li {
+    list-style: none;
+    text-decoration: none;
+}
+
+nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+nav ul li ul {
+    display: none;
+}
+
+nav ul li:hover ul {
+    position: absolute;
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
